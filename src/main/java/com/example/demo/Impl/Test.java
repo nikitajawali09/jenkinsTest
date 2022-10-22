@@ -7,7 +7,7 @@ public class Test {
 		System.out.println("Jenkins"
 				+ "");
 		
-		System.out.println("New Java");
+		System.out.println("New Java updated");
 		
 		
 		
