@@ -24,7 +24,7 @@ public class CalcTest {
 	public void addTest() {
 		Calculator myCalc = new Calculator();
 		
-		Mockito.when(Calculator.addNumbers(10, 6)).thenReturn(10, 5);
+		Mockito.when(Calculator.addNumbers(10, 6)).thenReturn(10, null);
 		Assert.assertNotNull(myCalc);
 	}
 
