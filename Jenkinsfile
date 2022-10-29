@@ -33,5 +33,12 @@ agent any
                    
                }
          }
-     }
+        
+        stage("Email Build Status"){
+            steps{
+                mail bcc: '', body: '''Hi all,
+                Test results''', cc: '', from: '', replyTo: '', subject: 'Sample Body', to: 'nikitajawali06@gmail.com'
+        }
+      }
+    }
 }
