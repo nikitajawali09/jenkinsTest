@@ -11,22 +11,22 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
 public class CalcTest {
-	
-	@Mock
-	Calculator Calculator;
-	
-	@Before
-	public void setup() {
-		
-	}
-
-	@Test
-	public void addTest() {
-		Calculator myCalc = new Calculator();
-		
-		Mockito.when(Calculator.addNumbers(10, 6)).thenReturn(10, null);
-		Assert.assertNotNull(myCalc);
-	}
+//	
+//	@Mock
+//	Calculator Calculator;
+//	
+//	@Before
+//	public void setup() {
+//		
+//	}
+//
+//	@Test
+//	public void addTest() {
+//		Calculator myCalc = new Calculator();
+//		
+//		Mockito.when(Calculator.addNumbers(10, 6)).thenReturn(10, null);
+//		Assert.assertNotNull(myCalc);
+//	}
 
 	
 }
